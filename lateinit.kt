@@ -23,6 +23,7 @@ class Car {
     val myBrand:String = "BMW"
 
         //custom getter
+   //getter read onluy properties
     get()
     {
        return field.toLowerCase()
