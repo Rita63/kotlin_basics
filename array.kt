@@ -1,5 +1,7 @@
 package com.example.kotlin
 
+
+
 fun main() {
     // val numbers = intArrayOf(2,4,6,7,8)  //we can declare array of type int like this
 
@@ -40,5 +42,4 @@ fun main() {
         println("${i.name}")  //to access only fruit name
   //  println(fruits.contentToString())
 }
-
     data class Fruit(val name: String,val price: Double)
